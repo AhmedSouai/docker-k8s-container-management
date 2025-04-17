@@ -43,8 +43,8 @@ my-app/
 
 ### 1️⃣ Cloner le dépôt
 ```bash
-git clone https://github.com/AhmedSouai/projet_perso?git
-cd projet_perso.git/docker-k8s-container-management
+git clone https://github.com/AhmedSouai/docker-k8s-container-management
+cd docker-k8s-container-management
 ```
 
 ### 2️⃣  Construire et push les images Docker
