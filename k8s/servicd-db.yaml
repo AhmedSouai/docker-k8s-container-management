@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: todo-db
+spec:
+  selector:
+    app: todo-db  # Assurez-vous que cela correspond au label de votre déploiement DB
+  ports:
+    - protocol: TCP
+      port: 5432
+      targetPort: 5432
