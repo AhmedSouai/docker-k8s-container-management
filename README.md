@@ -12,11 +12,12 @@ Le tout est déployé dans un environnement local simulé avec **Vagrant** et **
 
 ## 🧱 Architecture du projet
 ```bash
-  ├── backend/ #  Flask 
-  ├── frontend/ # Flask
-  ├── k8s/ # Manifests Kubernetes (Deployments, Services) 
-  ├── .github/
-  └── README.md
+ ├── docker-k8s-container-management
+    ├── backend/ #  Flask 
+    ├── frontend/ # Flask
+    ├── k8s/ # Manifests Kubernetes (Deployments, Services) 
+    ├── .github/
+    └── README.md
 ```
 
 > 📌 **La base de données est déployée via des fichiers YAML Kubernetes**
