@@ -16,7 +16,6 @@ Le tout est déployé dans un environnement local simulé avec **Vagrant** et **
     ├── backend/ #  Flask 
     ├── frontend/ # Flask
     ├── k8s/ # Manifests Kubernetes (Deployments, Services) 
-    ├── .github/
     └── README.md
 ```
 
