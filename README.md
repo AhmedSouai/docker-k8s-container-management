@@ -11,19 +11,13 @@ Le tout est déployé dans un environnement local simulé avec **Vagrant** et **
 ---
 
 ## 🧱 Architecture du projet
-
-my-app/
-  ├── backend/ # API REST en Node.js (ou autre) 
-  
-  ├── frontend/ # Application web en React/Vue/Angular (par exemple)
-  
+```bash
+  ├── backend/ #  Flask 
+  ├── frontend/ # Flask
   ├── k8s/ # Manifests Kubernetes (Deployments, Services) 
-
   ├── .github/
-
-  
   └── README.md
-
+```
 
 > 📌 **La base de données est déployée via des fichiers YAML Kubernetes**
 
